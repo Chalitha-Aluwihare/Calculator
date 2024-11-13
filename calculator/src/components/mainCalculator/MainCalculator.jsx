@@ -10,19 +10,22 @@ import Img08 from '../../assets/mainCalculator/img08.png'
 import Img09 from '../../assets/mainCalculator/img09.png'
 import Img10 from '../../assets/mainCalculator/img10.png'
 
+import NavBar from '../navBar/NavBar'
+
 const MainCalculator = () => {
   return (
     <div>
-      
+      {/*import navbar main calculator window */}
+      <NavBar />
     <div className='flex justify-center itemsrow-center '>
-    <div className='w-[429px] bg-[#1E1E1E]  text-white grid grid-cols-5 grid-rows-7 gap-2 p-2 pt-[60px]'>
+    <div className='w-[429px] h-[932px] bg-[#1E1E1E]  text-white grid grid-cols-5 grid-rows-7 gap-2 p-2 pt-[350px]'>
       
       {/*output this calculator*/}
       <div className='col-span-5 mr-2 text-white !text-[50px] font-medium text-right'>27</div>
       <div className='col-span-5 mr-2 text-right text-white !text-[40px] font-light'>=10+17</div>
       
       {/*1st col 7 to 9 number and voice, camera icons*/}
-      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center hover:bg-[#4B4B4B]'>7</div>
+      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center hover:bg-[#4B4B4B]'>5</div>
       <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B] '>8</div>
       <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px]  hover:bg-[#4B4B4B]'>9</div>
       <div className='text-5xl flex items-center justify-center bg-[#A6A6A6] rounded-full p-[13px] '><img src={Img01} alt="" /></div>
