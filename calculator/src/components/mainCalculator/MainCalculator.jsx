@@ -22,27 +22,27 @@ const MainCalculator = () => {
       <div className='col-span-5 mr-2 text-right text-white !text-[40px] font-light'>=10+17</div>
       
       {/*1st col 7 to 9 number and voice, camera icons*/}
-      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center'>7</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>8</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>9</div>
+      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center hover:bg-[#4B4B4B]'>7</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B] '>8</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px]  hover:bg-[#4B4B4B]'>9</div>
       <div className='text-5xl flex items-center justify-center bg-[#A6A6A6] rounded-full p-[13px] '><img src={Img01} alt="" /></div>
       <div className='text-5xl flex items-center justify-center text-center bg-[#A6A6A6] rounded-full p-[13px] '><img src={Img02} alt="" /></div>
 
       {/*2nd col 4 to 6 numbers */}
-      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center'>4</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>5</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>6</div>
+      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center hover:bg-[#4B4B4B]'>4</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B]'>5</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B]'>6</div>
       <div className='text-5xl flex items-center justify-center bg-[#A6A6A6] rounded-full p-[13px] col-span-2 '><img src={Img03} alt="" /></div>
       
       {/*3rd col 1 to 3 numbers */}
-      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center'>1</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>2</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>3</div>
+      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center hover:bg-[#4B4B4B]'>1</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B]'>2</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B]'>3</div>
       <div className='text-5xl flex items-center justify-center bg-[#A6A6A6] rounded-full p-[13px] col-span-2 '><img src={Img04} alt="" /></div>
       
       {/*4th col 0 to . numbers */}
-      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center col-span-2'>0</div>
-      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] '>.</div>
+      <div className='p-[13px] text-5xl bg-[#333333] rounded-full text-center col-span-2 hover:bg-[#4B4B4B]'>0</div>
+      <div className='text-5xl text-center bg-[#333333] rounded-full p-[13px] hover:bg-[#4B4B4B]'>.</div>
       <div className='text-5xl flex items-center justify-center bg-[#A6A6A6] rounded-full p-[13px] col-span-2 '><img src={Img10} alt="" /></div>
       
       {/*5th col maths operations icons */}
